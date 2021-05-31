@@ -1,29 +1,41 @@
 {
-    "name": "in_project",
-    "version": "1.0.0",
-    "description": "project",
-    "main": "index.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/denis567denis/in_project.git"
-    },
-    "author": "denis",
-    "license": "ISC",
-    "bugs": {
-        "url": "https://github.com/denis567denis/in_project/issues"
-    },
-    "homepage": "https://github.com/denis567denis/in_project#readme",
-    "dependencies": {
-        "express": "^4.17.1"
-    },
-    "devDependencies": {
-        "@typescript-eslint/eslint-plugin": "^4.24.0",
-        "@typescript-eslint/parser": "^4.24.0",
-        "eslint": "^7.26.0",
-        "prettier": "2.3.0",
-        "typescript": "^4.2.4"
-    }
+   "name": "in_project",
+   "version": "1.0.0",
+   "description": "project",
+   "main": "index.js",
+   "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "ts-node src/index.ts"
+   },
+   "repository": {
+      "type": "git",
+      "url": "git+https://github.com/denis567denis/in_project.git"
+   },
+   "author": "denis",
+   "license": "ISC",
+   "bugs": {
+      "url": "https://github.com/denis567denis/in_project/issues"
+   },
+   "homepage": "https://github.com/denis567denis/in_project#readme",
+   "dependencies": {
+      "@nestjs/common": "^7.6.17",
+      "@nestjs/typeorm": "^7.1.5",
+      "dotenv": "^10.0.0",
+      "express": "^4.17.1",
+      "mysql": "^2.14.1",
+      "pg": "^8.6.0",
+      "reflect-metadata": "^0.1.10",
+      "save": "^2.4.0",
+      "typeorm": "0.2.32"
+   },
+   "devDependencies": {
+      "@types/node": "^8.0.29",
+      "@typescript-eslint/eslint-plugin": "^4.24.0",
+      "@typescript-eslint/parser": "^4.24.0",
+      "eslint": "^7.26.0",
+      "nodemon": "^2.0.7",
+      "prettier": "2.3.0",
+      "typescript": "3.3.3333",
+      "ts-node": "3.3.0"
+   }
 }
