@@ -1,6 +1,7 @@
-import {Entity, Column, PrimaryGeneratedColumn, OneToMany} from "typeorm";
+import {Entity, Column, PrimaryGeneratedColumn, ManyToMany, JoinTable} from "typeorm";
 import {Video} from "./Video.entity";
 import {Permission} from "./Permission.entity";
+import bcrypt from "bcryptjs";
 
 @Entity()
 export class Users {
@@ -14,16 +15,23 @@ export class Users {
     @Column("varchar")
     lastName: string;
 
-    @Column("varchar", { length: 10 })
+    @Column("varchar", { length: 8 })
     login: string;
 
-    @Column("varchar", { length: 10 })
+    @Column("varchar", { length: 8 })
     password: string;
 
-    @OneToMany(type => Video, video => video.users) 
-    video: Video[];
-    
-    @OneToMany(type => Permission, permission => permission.users) 
-    permission: Permission[];  
+    @Column("varchar")
+    rol: string;
 
+
+    @ManyToMany(() => Permission)
+    @JoinTable()
+    permission: Permission[];
+
+    @ManyToMany(() => Video)
+    @JoinTable()
+    video: Video[];
+
+    
 }

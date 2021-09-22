@@ -1,74 +1,27 @@
-import express, {Request, Response} from 'express';
-import {getConnection} from "typeorm";
-import { UserController } from './controller/user.controller';
+import "reflect-metadata";
+import { createConnection } from "typeorm";
+import express from "express";
+import bodyParser from "body-parser";
+import helmet from "helmet";
+import cors from "cors";
+import services from "./services/index.service";
 
-class Server {
-  private userController: UserController;
-  private app: express.Application;
+//Connects to the Database -> then starts the express
+createConnection()
+  .then(async connection => {
+    // Create a new express application instance
+    const app = express();
 
-  constructor(){
-    this.app = express(); // init the application
-    this.configuration();
-    this.routes();
-  }
+    // Call midlewares
+    app.use(cors());
+    app.use(helmet());
+    app.use(bodyParser.json());
 
+    //Set all routes from routes folder
+    app.use("/", services);
 
-  public configuration() {
-    this.app.set('port', process.env.PORT || 3001);
-    this.app.use(express.json());
-  }
-
-  /**
-   *  function token jwt 
-*/
-/*
-const jwt = require('jsonwebtoken');
-
-function authenticateToken(req, res, next) {
-  const authHeader = req.headers['authorization']
-  const token = authHeader && authHeader.split(' ')[1]
-
-  if (token == null) return res.sendStatus(401)
-
-  jwt.verify(token, process.env.TOKEN_SECRET as string, (err: any, user: any) => {
-    console.log(err)
-
-    if (err) return res.sendStatus(403)
-
-    req.user = user
-
-    next()
+    app.listen(3001, () => {
+      console.log("Server started on port 3001!");
+    });
   })
-}
-*/
-
-
-  /**
-   * Method to configure the routes
-   */
-  public async routes(){
-    
-    const con=getConnection();
-
-    this.userController = new UserController();
-
-    this.app.get( "/", (req: Request, res: Response ) => {
-      
-      res.send( "Hello world!" );
-    });
-
-    this.app.use(`/api/posts/`,this.userController.router); // Configure the new routes of the controller post
-  }
-
-  /**
-   * Used to start the server
-   */
-  public start(){
-    this.app.listen(this.app.get('port'), () => {
-      console.log(`Server is listening ${this.app.get('port')} port.`);
-    });
-  }
-}
-
-const server = new Server(); // Create server instance
-server.start(); // Execute the server
+  .catch(error => console.log(error));

@@ -1,4 +1,4 @@
-import {Entity, Column, PrimaryGeneratedColumn, ManyToOne, OneToMany} from "typeorm";
+import {Entity, Column, PrimaryGeneratedColumn, ManyToMany,JoinTable} from "typeorm";
 import {Users} from "./Users.entity"
 import {Permission} from "./Permission.entity";
 
@@ -11,9 +11,11 @@ export class Video {
     @Column("varchar")
     videoName: string;
 
-    @ManyToOne(type => Users, users => users.video) 
-    users: Users; 
-    
-    @OneToMany(type => Permission, permission => permission.users) 
-    permission: Permission[];  
+    @ManyToMany(() => Permission)
+    @JoinTable()
+    permission: Permission[];
+
+    @ManyToMany(() => Users)
+    users: Users[];
+
 }

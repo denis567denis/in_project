@@ -1,39 +1,41 @@
-import { Router, Response, Request } from "express";
-import {Users} from "../database/entities/Users.entity";
-import {Permission} from "../database/entities/Permission.entity";
-import {Video} from "../database/entities/Video.entity";
-import {UsersService} from "../services/user.service";
+import { Request, Response } from "express";
+import { getConnection, getRepository } from "typeorm";
+import { validate } from "class-validator";
 
-export class UserController {
-  public router: Router;
-  private userService: UsersService; 
+import { Users } from "../database/entities/Users.entity";
 
-  constructor(){
-    this.userService = new UsersService(); // Create a new instance of PostController
-    this.router = Router();
-    this.routes();
+class UserController{
+ 
+  public async getAllUser():Promise<Users[]>{
+    return await getRepository(Users)
+    .createQueryBuilder("user")
+    .getMany();
+  }
+  
+  public async getUserById(userId:number):Promise<Users>{
+    return await getRepository(Users)
+    .createQueryBuilder("users")
+    .where("users.id = :id", { id:userId})
+    .getOne();
   }
 
-  public view = async (req: Request, res: Response) => {
-    const views = await this.userService.view();
-    res.send(views).json();
+  public async newUser(user:Users):Promise<void>{
+    await getConnection().manager.save(user);
   } 
 
-  public download = async (req: Request, res: Response) => {
-   
+  public async UpdateUser(user:Users):Promise<void>{
+    await getConnection()
+    .createQueryBuilder()
+    .update(Users)
+    .set({ video:user.video ,permission:user.permission,
+      lastName:user.lastName,firstName:user.firstName,
+    password:user.password,login:user.password ,rol:user.rol})
+    .where("id = :id", { id: user.id })
+    .execute();
   }
-
-  public permissionUpdate = async (req: Request, res: Response) => {
-    
+  public async deleteUsers(users:Users):Promise<void>{
+    const videoRepository = getRepository(Users);
+    videoRepository.delete(users.id);
   }
-
-  public delete = async (req: Request, res: Response) => {
-  } 
-
-  public routes(){
-    this.router.get('/user', this.view);
-    this.router.get('/user/download', this.download);
-    this.router.get('/user/permission', this.permissionUpdate);
-    this.router.get('/user/delete', this.delete);
-  }
-}
+};
+export const userController = new UserController()

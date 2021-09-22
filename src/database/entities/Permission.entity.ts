@@ -1,19 +1,21 @@
-import {Entity, Column, PrimaryGeneratedColumn, ManyToOne} from "typeorm";
+import {Entity, Column, PrimaryGeneratedColumn,ManyToMany} from "typeorm";
 import {Users} from "./Users.entity"
 import {Video} from "./Video.entity"
 
 @Entity()
 export class Permission {
-
+    
     @PrimaryGeneratedColumn()
     id: number;
 
     @Column("varchar")
     mayWatch: string;
 
-    @ManyToOne(type => Users, users => users.permission) 
-    users: Users;
+    @ManyToMany(() => Video)
+    video: Video[];
 
-    @ManyToOne(type => Video, video => video.permission) 
-    video: Video;
+    @ManyToMany(() => Users)
+    users: Users[];
+
+ 
 }

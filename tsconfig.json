@@ -1,14 +1,11 @@
 {
-	"compilerOptions": {
-		"module": "CommonJS",
-		"outDir": "./build",
-		"strict": true,
-		"strictPropertyInitialization": false,
-		"rootDirs": ["./src"],
-		"esModuleInterop": true,
-		"experimentalDecorators": true, 
-		"emitDecoratorMetadata": true,  
-		"skipLibCheck": true,
-        "forceConsistentCasingInFileNames": true  
-	}
+		"compilerOptions": {
+		  "module": "commonjs",
+		  "experimentalDecorators": true,
+		  "target": "es2017",
+		  "outDir": "dist",
+		  "rootDir": "./",
+		  "moduleResolution": "node",
+		  "esModuleInterop": true
+		}	  
 }
