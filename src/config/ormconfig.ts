@@ -9,5 +9,5 @@ export default  {
    database: process.env.TYPEORM_DATABASE || `database_denis`,
    synchronize : process.env.TYPEORM_SYNCHRONIZE || true,
    logging : process.env.TYPEORM_LOGGING || false,
-   entities: [__dirname + `/src/database/entity/*.entity.ts`],
+   entities: [__dirname + `/../database/entities/*.entity.ts`]
  } as ConnectionOptions 

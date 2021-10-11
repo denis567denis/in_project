@@ -1,6 +1,7 @@
-import {Entity, Column, PrimaryGeneratedColumn, ManyToMany, JoinTable} from "typeorm";
+import {Entity, Column, PrimaryGeneratedColumn, ManyToMany, JoinTable ,JoinColumn,OneToOne} from "typeorm";
 import {Video} from "./Video.entity";
 import {Permission} from "./Permission.entity";
+import {Token} from "./Token.entity"
 import bcrypt from "bcryptjs";
 
 @Entity()
@@ -27,11 +28,15 @@ export class Users {
 
     @ManyToMany(() => Permission)
     @JoinTable()
-    permission: Permission[];
+    permission: Permission[] | null;;
 
     @ManyToMany(() => Video)
     @JoinTable()
-    video: Video[];
+    video: Video[] | null;;
+
+    @OneToOne(() => Token, token => token.user) 
+    @JoinTable()
+    token: Token | null;;
 
     
 }

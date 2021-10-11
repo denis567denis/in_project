@@ -1,0 +1,364 @@
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"error","message":"don't authorized","status":404}
+{"level":"error","message":"don't authorized","status":404}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"error","message":"don't authorized","status":404}
+{"level":"error","message":"don't authorized","status":404}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"error","message":"don't authorized","status":404}
+{"level":"error","message":"don't authorized","status":404}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"error","message":"don't authorized","status":404}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"error","message":"don't authorized","status":404}
+{"level":"error","message":"don't authorized","status":404}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"error","message":"don't authorized","status":404}
+{"level":"error","message":"don't authorized","status":404}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"error","message":"don't authorized","status":404}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"error","message":"don't authorized","status":404}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"error","message":"don't authorized","status":404}
+{"level":"error","message":"don't authorized","status":404}
+{"level":"error","message":"don't authorized","status":404}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"error"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"body":"{\r\n    \"login\":\"admin\",\r\n    \"password\":\"admin1\"\r\n    /*\"oldPassword\":\"admin\",\r\n    \"newPassword\":\"admin1\"\r\n    */\r\n}","expose":true,"level":"error","status":400,"statusCode":400,"type":"entity.parse.failed"}
+{"body":"{\r\n    \"login\":\"admin\",\r\n    \"password\":\"admin100\"\r\n    /*\"oldPassword\":\"admin\",\r\n    \"newPassword\":\"admin1\"\r\n    */\r\n}","expose":true,"level":"error","status":400,"statusCode":400,"type":"entity.parse.failed"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"error","message":"don't authorized","status":401}
+{"level":"info","message":"connected to database database_denis"}
+{"body":"{\r\n{\"userdelete\":\"no\",\r\n\"userId\":\"2\",\"userfirstname\":\"pav\",\r\n\"userlastname\":\"pav\",\r\n\"userlogin\":\"USER\",\r\n\"userpassword\":\"USER\",\r\n\"userRol\":\"USER\",\r\n\"userPermission\":\"1\",\r\n\"userVideo\":\"1\"\r\n}\r\n","expose":true,"level":"error","status":400,"statusCode":400,"type":"entity.parse.failed"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"error","message":"don't authorized","status":401}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"error","message":"don't authorized","status":401}
+{"level":"error","message":"don't authorized","status":401}
+{"level":"error","message":"don't authorized","status":401}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"error","message":"don't authorized","status":401}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"error","message":"don't authorized","status":401}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"error","message":"don't authorized","status":401}
+{"level":"info","message":"connected to database database_denis"}
+{"body":"{\r\n    \"video\":\"D:\\lab\\project\\src\\video\\123.mp4\"\r\n}","expose":true,"level":"error","status":400,"statusCode":400,"type":"entity.parse.failed"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"code":"ENOENT","errno":-4058,"level":"error","path":"D:\\lab\\project\\video\\1633792290594456.mp4","storageErrors":[],"syscall":"open"}
+{"code":"ENOENT","errno":-4058,"level":"error","path":"D:\\lab\\project\\video\\1633792343222123.mp4","storageErrors":[],"syscall":"open"}
+{"level":"info","message":"connected to database database_denis"}
+{"code":"ENOENT","errno":-4058,"level":"error","path":"D:\\lab\\project\\video\\123.mp4","storageErrors":[],"syscall":"open"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"error","message":"don't authorized","status":401}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"body":"{\n  \"login\": ,\n  \"password\": \"string\"\n}","expose":true,"level":"error","status":400,"statusCode":400,"type":"entity.parse.failed"}
+{"body":"{\n  \"login\": ,\n  \"password\": \"string\"\n}","expose":true,"level":"error","status":400,"statusCode":400,"type":"entity.parse.failed"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"error","message":"don't authorized","status":401}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
+{"level":"info","message":"connected to database database_denis"}
